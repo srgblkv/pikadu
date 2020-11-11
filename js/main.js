@@ -91,8 +91,8 @@ const setUsers = {
 
 // validate Email ------------------------
 const validateEmail = (email) => {
-  const domen = email.split('@')[1].split('.')[1];
-  return domen || false;
+  const domain = email.split('@')[1];
+  return domain ? domain.split('.')[1] : false;
 };
 // ---------------------------------------
 
