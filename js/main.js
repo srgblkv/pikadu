@@ -93,7 +93,7 @@ const setUsers = {
 const validateEmail = (email) => {
   const hosting = email.split('@')[1];
   return hosting.split('').find(char => char === '.');
-}
+};
 // ---------------------------------------
 
 // node switcher -------------------------
