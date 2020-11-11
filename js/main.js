@@ -37,7 +37,7 @@ const passInput = document.querySelector('.login-password');
 const loginSignup = document.querySelector('.login-signup');
 // ---------------------------------------
 
-// user ui node --------------------------
+// user ui nodes --------------------------
 const userUiElem = document.querySelector('.user-ui');
 const userName = document.querySelector('.user-name');
 const userLogout = document.querySelector('.exit');
