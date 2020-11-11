@@ -91,8 +91,8 @@ const setUsers = {
 
 // validate Email ------------------------
 const validateEmail = (email) => {
-  const hosting = email.split('@')[1];
-  return hosting.split('').find(char => char === '.');
+  const domen = email.split('@')[1].split('.')[1];
+  return domen || false;
 };
 // ---------------------------------------
 
